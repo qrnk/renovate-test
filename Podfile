@@ -8,6 +8,6 @@ target 'renovate-test' do
   # Pods for renovate-test
   
   # Braze
-  pod 'BrazeKit', '5.14.0'
+  pod 'BrazeKit', '10.2.0'
 
 end
