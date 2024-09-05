@@ -1,9 +1,3 @@
 {
-  "extends": ["config:base"],
-  "packageRules": [
-    {
-      "managers": ["cocoapods", "swift"],
-      "groupName": "iOS dependencies"
-    }
-  ]
+  "extends": ["config:base"]
 }
