@@ -6,5 +6,8 @@ target 'renovate-test' do
   use_frameworks!
 
   # Pods for renovate-test
+  
+  # Braze
+  pod 'BrazeKit', '5.14.0'
 
 end
