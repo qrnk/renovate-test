@@ -1,4 +1,10 @@
 {
   "extends": ["config:base"],
-  "enabledManagers": ["cocoapods", "swift"]
+  "enabledManagers": ["cocoapods", "swift"],
+  "packageRules": [
+    {
+      "updateTypes": ["patch"],
+      "automerge": true
+    }
+  ]
 }
