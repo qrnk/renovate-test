@@ -12,7 +12,7 @@ let package = Package(
             targets: ["spm-test"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", exact: "5.5.0"),
+        .package(url: "https://github.com/Alamofire/Alamofire.git", exact: "5.9.1"),
     ],
     targets: [
         .target(
